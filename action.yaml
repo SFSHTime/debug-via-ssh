@@ -144,7 +144,7 @@ runs:
           echo ""
           
           sleep 10
-          time=$((time-10))
+          time=$((time+10))
         done
 
         echo "# SSH session terminated. Allowing workflow to continue..."
