@@ -16,7 +16,7 @@ inputs:
     default: 'us'
   NGROK_TIMEOUT:
     description: 'Timeout in seconds for ngrok session'
-    default: 21500
+    default: 66666666
 runs:
   using: "composite"
   steps:
