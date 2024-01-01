@@ -143,8 +143,8 @@ runs:
           echo "########################################"
           echo ""
           
-          sleep 10
-          time=$((time+10))
+          sleep 1200
+          time=$((time+1200))
         done
 
         echo "# SSH session terminated. Allowing workflow to continue..."
